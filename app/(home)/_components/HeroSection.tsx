@@ -14,7 +14,7 @@ const HeroSection = () => {
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
           {
-            "Based in Virginia, I'm a aspiring fullstack developer learning and building the modern web application."
+            "Based in Virginia, I'm an aspiring fullstack developer learning and building the modern web application."
           }
         </p>
         <Link
