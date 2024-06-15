@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { ActionTooltip } from './ActionTooltip';
 import { FaCode } from 'react-icons/fa6';
+import { BiSolidFilePdf } from 'react-icons/bi';
 
 const Navbar = ({
   className,
@@ -27,6 +28,12 @@ const Navbar = ({
       label: 'Instagram',
       Icon: SiInstagram,
     },
+    {
+      Icon: BiSolidFilePdf,
+      label: 'CV',
+      link: 'https://cv.rishabhsingh.com.np',
+    },
+
   ];
   return (
     <nav

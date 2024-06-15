@@ -1,4 +1,4 @@
-import { BiSolidEnvelope } from 'react-icons/bi';
+import { BiSolidEnvelope, BiSolidFilePdf } from 'react-icons/bi';
 import {
   SiCloudflare,
   SiCss3,
@@ -24,6 +24,7 @@ import {
   SiHonor,
   SiExpress,
   SiInstagram,
+  SiNintendonetwork,
 } from 'react-icons/si';
 
 export const helpCommand = [
@@ -133,21 +134,21 @@ export const skillsCommand = [
 
 export const projectsCommand = [
   {
-    title: 'Support Desk',
+    title: 'Support Desk - Web/Mobile',
     tech: [SiReact, SiTailwindcss, SiNodedotjs, SiSocketdotio, SiDocker, SiNginx, SiMongodb],
     link: 'https://supportdesk.dryicesolutions.net/',
     cover: '/project-1.jpeg',
     background: 'bg-indigo-500',
   },
   {
-    title: 'Finance SaaS',
+    title: 'Finance SaaS - Web',
     tech: [SiNextdotjs, SiTailwindcss, SiBun, SiTypescript, SiPostgresql],
     link: '#',
     cover: '/project-3.PNG',
     background: 'bg-indigo-500',
   },
   {
-    title: 'Threads',
+    title: 'Threads - Web',
     tech: [SiReact, SiTailwindcss, SiNodedotjs, SiSocketdotio, SiMongodb],
     link: '#',
     cover: '/project-2.jpeg',
@@ -155,7 +156,7 @@ export const projectsCommand = [
   },
   
   {
-    title: 'Plinko',
+    title: 'Plinko - Web',
     tech: [SiReact, SiTailwindcss, SiTypescript, SiExpress, SiNodedotjs],
     link: '#',
     cover: '/project-4.PNG',
@@ -187,5 +188,11 @@ export const contactCommand = [
     icon: BiSolidEnvelope,
     username: 'mail@rishabhsingh.com.np',
     link: 'mailto:mail@rishabhsingh.com.np',
+  },
+  {
+    title: 'CV',
+    icon: BiSolidFilePdf,
+    username: '@hyper',
+    link: 'https://cv.rishabhsingh.com.np',
   },
 ];
