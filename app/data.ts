@@ -25,6 +25,9 @@ import {
   SiExpress,
   SiInstagram,
   SiNintendonetwork,
+  SiVite,
+  SiPython,
+  SiFastapi,
 } from 'react-icons/si';
 
 export const helpCommand = [
@@ -148,10 +151,10 @@ export const projectsCommand = [
     background: 'bg-indigo-500',
   },
   {
-    title: 'Threads - Web',
-    tech: [SiReact, SiTailwindcss, SiNodedotjs, SiSocketdotio, SiMongodb],
-    link: '#',
-    cover: '/project-2.jpeg',
+    title: 'Spam mail detection',
+    tech: [SiReact, SiVite, SiNodedotjs, SiPython, SiFastapi, SiExpress],
+    link: 'https://github.com/Rish4bh0/Spam-mail-detection-web-app',
+    cover: '/project-2.PNG',
     background: 'bg-green-500',
   },
   
